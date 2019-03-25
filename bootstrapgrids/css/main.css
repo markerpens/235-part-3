@@ -259,3 +259,58 @@ font-style: normal;
   left:5px;
   top:20px;
 }
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  .multiline {font-size:8px;} /*1rem = 16px*/
+  .multiline2 {font-size:8px;} /*1rem = 16px*/
+
+  .container-fluid {width:143vw;}
+
+  .container-fluid{
+    overflow-x:hidden;
+    overflow-y: scroll;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+  .multiline {font-size:6px;} /*1rem = 16px*/
+  .multiline2 {font-size:6px;} /*1rem = 16px*/
+
+  .container-fluid {width:143vw;}
+
+  .container-fluid{
+    overflow-x:scroll;
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .multiline {font-size:8px;} /*1rem = 16px*/
+  .multiline2 {font-size:8px;} /*1rem = 16px*/
+
+  .container-fluid {width:143vw;}
+
+  .container-fluid{
+    overflow-x:scroll;
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .multiline {font-size:12px;} /*1rem = 16px*/
+  .multiline2 {font-size:12px;} /*1rem = 16px*/
+
+  .container-fluid {width:143vw;}
+
+  .container-fluid{
+    overflow-x:scroll;
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+}
